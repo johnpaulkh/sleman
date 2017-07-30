@@ -17,6 +17,11 @@ public class ProductServiceBean implements ProductService {
   private ProductRepository productRepository;
 
   @Override
+  public Product create(Product product) {
+    return productRepository.saveAndFlush(product);
+  }
+
+  @Override
   public Product findById(String id) {
     return productRepository.findOne(id);
   }

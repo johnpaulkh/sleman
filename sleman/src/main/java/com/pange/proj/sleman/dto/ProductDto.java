@@ -1,7 +1,6 @@
 package com.pange.proj.sleman.dto;
 
 import java.io.Serializable;
-import java.util.List;
 
 import com.pange.proj.sleman.model.ProductUnit;
 
@@ -24,8 +23,6 @@ public class ProductDto implements Serializable {
 
   private ProductUnit unit;
 
-  private List<TransactionDetailDto> transactionDetails;
-
   public Long getBasePrice() {
     return basePrice;
   }
@@ -44,10 +41,6 @@ public class ProductDto implements Serializable {
 
   public Long getSellingPrice() {
     return sellingPrice;
-  }
-
-  public List<TransactionDetailDto> getTransactionDetails() {
-    return transactionDetails;
   }
 
   public ProductUnit getUnit() {
@@ -72,10 +65,6 @@ public class ProductDto implements Serializable {
 
   public void setSellingPrice(Long sellingPrice) {
     this.sellingPrice = sellingPrice;
-  }
-
-  public void setTransactionDetails(List<TransactionDetailDto> transactionDetails) {
-    this.transactionDetails = transactionDetails;
   }
 
   public void setUnit(ProductUnit unit) {

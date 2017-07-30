@@ -7,6 +7,8 @@ import com.pange.proj.sleman.model.ProductSearch;
 
 public interface ProductService {
 
+  Product create(Product product);
+
   Product findById(String id);
 
   List<Product> findBySearch(ProductSearch productSearch);

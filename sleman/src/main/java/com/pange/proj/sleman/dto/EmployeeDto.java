@@ -1,7 +1,6 @@
 package com.pange.proj.sleman.dto;
 
 import java.io.Serializable;
-import java.util.List;
 
 import net.karneim.pojobuilder.GeneratePojoBuilder;
 
@@ -18,8 +17,6 @@ public class EmployeeDto implements Serializable {
 
   private String password;
 
-  private List<TransactionDto> transactions;
-
   public String getId() {
     return id;
   }
@@ -30,10 +27,6 @@ public class EmployeeDto implements Serializable {
 
   public String getPassword() {
     return password;
-  }
-
-  public List<TransactionDto> getTransactions() {
-    return transactions;
   }
 
   public String getUsername() {
@@ -50,10 +43,6 @@ public class EmployeeDto implements Serializable {
 
   public void setPassword(String password) {
     this.password = password;
-  }
-
-  public void setTransactions(List<TransactionDto> transactions) {
-    this.transactions = transactions;
   }
 
   public void setUsername(String username) {
