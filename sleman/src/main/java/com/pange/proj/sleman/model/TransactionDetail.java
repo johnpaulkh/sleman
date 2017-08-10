@@ -9,9 +9,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.GenericGenerator;
-
 import net.karneim.pojobuilder.GeneratePojoBuilder;
+
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Table(name = "slm_transaction_detail")
@@ -33,60 +33,70 @@ public class TransactionDetail {
   private Transaction transaction;
 
   @Column(name = "selling_price")
-  private Long sellingPrice;
+  private Double sellingPrice;
 
   @Column(name = "original_selling_price")
-  private Long originalSellingPrice;
+  private Double originalSellingPrice;
+  
+  @Column(name = "base_price")
+  private Double basePrice;
 
   @Column(name ="quantity")
-  private Long quantity;
+  private Double quantity;
 
   public String getId() {
     return id;
-  }
-
-  public Long getOriginalSellingPrice() {
-    return originalSellingPrice;
-  }
-
-  public Product getProduct() {
-    return product;
-  }
-
-  public Long getQuantity() {
-    return quantity;
-  }
-
-  public Long getSellingPrice() {
-    return sellingPrice;
-  }
-
-  public Transaction getTransaction() {
-    return transaction;
   }
 
   public void setId(String id) {
     this.id = id;
   }
 
-  public void setOriginalSellingPrice(Long originalSellingPrice) {
-    this.originalSellingPrice = originalSellingPrice;
+  public Product getProduct() {
+    return product;
   }
 
   public void setProduct(Product product) {
     this.product = product;
   }
 
-  public void setQuantity(Long quantity) {
-    this.quantity = quantity;
-  }
-
-  public void setSellingPrice(Long sellingPrice) {
-    this.sellingPrice = sellingPrice;
+  public Transaction getTransaction() {
+    return transaction;
   }
 
   public void setTransaction(Transaction transaction) {
     this.transaction = transaction;
   }
 
+  public Double getSellingPrice() {
+    return sellingPrice;
+  }
+
+  public void setSellingPrice(Double sellingPrice) {
+    this.sellingPrice = sellingPrice;
+  }
+
+  public Double getOriginalSellingPrice() {
+    return originalSellingPrice;
+  }
+
+  public void setOriginalSellingPrice(Double originalSellingPrice) {
+    this.originalSellingPrice = originalSellingPrice;
+  }
+
+  public Double getBasePrice() {
+    return basePrice;
+  }
+
+  public void setBasePrice(Double basePrice) {
+    this.basePrice = basePrice;
+  }
+
+  public Double getQuantity() {
+    return quantity;
+  }
+
+  public void setQuantity(Double quantity) {
+    this.quantity = quantity;
+  }
 }

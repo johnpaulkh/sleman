@@ -25,6 +25,4 @@ public class ProductSearch {
     this.productName = productName;
   }
 
-
-
 }

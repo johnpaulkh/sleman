@@ -31,10 +31,10 @@ public class Product {
   private String productName;
 
   @Column(name = "selling_price")
-  private Long sellingPrice;
+  private Double sellingPrice;
 
   @Column(name = "base_price")
-  private Long basePrice;
+  private Double basePrice;
 
   @Column(name = "product_code")
   private String productCode;
@@ -46,7 +46,7 @@ public class Product {
   @OneToMany(fetch = FetchType.LAZY, mappedBy = "product")
   private List<TransactionDetail> transactionDetails;
 
-  public Long getBasePrice() {
+  public Double getBasePrice() {
     return basePrice;
   }
 
@@ -66,7 +66,7 @@ public class Product {
     return productName;
   }
 
-  public Long getSellingPrice() {
+  public Double getSellingPrice() {
     return sellingPrice;
   }
 
@@ -78,7 +78,7 @@ public class Product {
     return unit;
   }
 
-  public void setBasePrice(Long basePrice) {
+  public void setBasePrice(Double basePrice) {
     this.basePrice = basePrice;
   }
 
@@ -94,7 +94,7 @@ public class Product {
     this.productName = productName;
   }
 
-  public void setSellingPrice(Long sellingPrice) {
+  public void setSellingPrice(Double sellingPrice) {
     this.sellingPrice = sellingPrice;
   }
 

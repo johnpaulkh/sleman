@@ -31,8 +31,11 @@ public class Transaction {
   @Column(name = "transaction_time")
   private Date transactionTime;
 
-  @Column(name = "total_price")
-  private Long totalPrice;
+  @Column(name = "total_selling_price")
+  private Double totalSellingPrice;
+  
+  @Column(name = "total_base_price")
+  private Double totalBasePrice;
 
   @ManyToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "employee_id")
@@ -49,8 +52,12 @@ public class Transaction {
     return id;
   }
 
-  public Long getTotalPrice() {
-    return totalPrice;
+  public Double getTotalBasePrice() {
+    return totalBasePrice;
+  }
+
+  public Double getTotalSellingPrice() {
+    return totalSellingPrice;
   }
 
   public List<TransactionDetail> getTransactionDetails() {
@@ -69,8 +76,12 @@ public class Transaction {
     this.id = id;
   }
 
-  public void setTotalPrice(Long totalPrice) {
-    this.totalPrice = totalPrice;
+  public void setTotalBasePrice(Double totalBasePrice) {
+    this.totalBasePrice = totalBasePrice;
+  }
+
+  public void setTotalSellingPrice(Double totalSellingPrice) {
+    this.totalSellingPrice = totalSellingPrice;
   }
 
   public void setTransactionDetails(List<TransactionDetail> transactionDetails) {
