@@ -1,32 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <configuration>
   <property resource="application.properties" />
   <appender name="FILE"
     class="ch.qos.logback.core.rolling.RollingFileAppender">
-    <file>${LOG_PATH:-.}sleman.log</file>
-    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-      <pattern>[%level] %date{YYYY-MM-dd HH:mm:ss} [%thread] %logger{10}
-        %msg%n</pattern>
-    </encoder>
-
+    <file>/logs/sleman/sleman.log</file>
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-      <fileNamePattern>${LOG_PATH:-.}/archived/sleman.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      <!--rollover daily -->
+      <fileNamePattern>/sleman/sleman/archieve/sleman.%d{yyyy-MM-dd}.%i.log
+      </fileNamePattern>
       <timeBasedFileNamingAndTriggeringPolicy
         class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-        <maxFileSize>1MB</maxFileSize>
+        <!-- or whenever the file size reaches 400MB -->
+        <maxFileSize>400MB</maxFileSize>
       </timeBasedFileNamingAndTriggeringPolicy>
     </rollingPolicy>
-  </appender>
-
-  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
     <encoder>
-      <pattern>[%level] %date{YYYY-MM-dd HH:mm:ss} [%thread] %logger{10}
-        %msg%n</pattern>
+      <pattern>[%level] %date{YYYY-MM-dd HH:mm:ss} [%thread] %logger{10} %msg%n</pattern>
     </encoder>
   </appender>
-
-  <logger name="com.pange.proj" level="debug"></logger>
-  <root level="error">
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%date{YYYY-MM-dd HH:mm:ss} %level [%thread] %logger{10} [%file:%line] %msg%n</pattern>
+    </encoder>
+  </appender>
+  <logger name="com.pange.proj.sleman" level="DEBUG"></logger>
+  <root level="INFO">
     <appender-ref ref="STDOUT" />
     <appender-ref ref="FILE" />
   </root>

@@ -9,6 +9,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import com.pange.proj.sleman.exception.ApplicationException;
+import com.pange.proj.sleman.exception.ApplicationRuntimeException;
+import com.pange.proj.sleman.exception.ExceptionType;
+import com.pange.proj.sleman.model.Employee;
 import com.pange.proj.sleman.model.Product;
 import com.pange.proj.sleman.model.Transaction;
 import com.pange.proj.sleman.model.TransactionDetail;
@@ -28,13 +32,8 @@ public class TransactionServiceBean implements TransactionService {
   private ProductRepository productRepository;
 
   @Override
-  public Transaction findById(String id) {
-    return transactionRepository.findOne(id);
-  }
-
-  @Override
   @Transactional
-  public Transaction create(Transaction transaction) {
+  public Transaction create(Transaction transaction) throws ApplicationException {
     setTransactionEmployee(transaction);
     setTransactionProducts(transaction);
     setTransactionTotalPrice(transaction);
@@ -44,37 +43,32 @@ public class TransactionServiceBean implements TransactionService {
 
   @Override
   public List<Transaction> findByDateBetween(Date dateStart, Date dateEnd) {
-    return transactionRepository
-        .findByTransactionTimeGreaterThanEqualsAndTransactionTimeLessThanEquals(dateStart, dateEnd);
+    return transactionRepository.findByTransactionTimeBetween(dateStart, dateEnd);
   }
 
-  private void setTransactionTotalPrice(Transaction transaction) {
-    if (transaction.getTotalSellingPrice() == null) {
-      transaction.setTotalSellingPrice(transaction.getTransactionDetails().stream()
-          .mapToDouble(TransactionDetail::getSellingPrice).sum());
-    }
-    if (transaction.getTotalBasePrice() == null) {
-      transaction.setTotalBasePrice(transaction.getTransactionDetails().stream()
-          .mapToDouble(TransactionDetail::getBasePrice).sum());
-    }
+  @Override
+  public Transaction findById(String id) {
+    return transactionRepository.findOne(id);
   }
 
-  private void setTransactionEmployee(Transaction transaction) {
-    if (StringUtils.isEmpty(transaction.getEmployee().getName())) {
-      transaction.setEmployee(employeeRepository.findOne(transaction.getEmployee().getId()));
+  private Product getProduct(Product incompleteProduct) {
+    Product product = null;
+    if (!StringUtils.isEmpty(incompleteProduct.getId())) {
+      product = productRepository.findOne(incompleteProduct.getId());
+    } else if (!StringUtils.isEmpty(incompleteProduct.getProductCode())) {
+      product = productRepository.findByProductCode(incompleteProduct.getProductCode());
     }
+    if (product == null) {
+      throw new ApplicationRuntimeException("Produk tidak ditemukan", ExceptionType.DATA_NOT_FOUND);
+    }
+    return product;
   }
 
   private void setTransactionDetailProductAndPrice(TransactionDetail transactionDetail) {
     Product product = transactionDetail.getProduct();
     if (StringUtils.isEmpty(product.getProductName()) || product.getSellingPrice() == null
         || product.getBasePrice() == null) {
-      if (!StringUtils.isEmpty(product.getId())) {
-        product = productRepository.findOne(product.getId());
-      } else if (!StringUtils.isEmpty(product.getProductCode())) {
-        product = productRepository.findByProductCode(product.getProductCode());
-      }
-      transactionDetail.setProduct(product);
+      transactionDetail.setProduct(getProduct(product));
     }
     if (transactionDetail.getOriginalSellingPrice() == null) {
       transactionDetail.setOriginalSellingPrice(product.getSellingPrice());
@@ -84,13 +78,34 @@ public class TransactionServiceBean implements TransactionService {
     }
   }
 
+  private void setTransactionEmployee(Transaction transaction) throws ApplicationException {
+    if (StringUtils.isEmpty(transaction.getEmployee().getName())) {
+      Employee employee = employeeRepository.findOne(transaction.getEmployee().getId());
+      if (employee == null) {
+        throw new ApplicationException("Pegawai tidak ditemukan", ExceptionType.DATA_NOT_FOUND);
+      }
+      transaction.setEmployee(employee);
+    }
+  }
+
+  private void setTransactionProducts(Transaction transaction) {
+    transaction.getTransactionDetails().stream().forEach(this::setTransactionDetailProductAndPrice);
+  }
+
   private void setTransactionTime(Transaction transaction) {
     if (transaction.getTransactionTime() == null) {
       transaction.setTransactionTime(new Date());
     }
   }
 
-  private void setTransactionProducts(Transaction transaction) {
-    transaction.getTransactionDetails().forEach(this::setTransactionDetailProductAndPrice);
+  private void setTransactionTotalPrice(Transaction transaction) {
+    if (transaction.getTotalSellingPrice() == null) {
+      transaction.setTotalSellingPrice(transaction.getTransactionDetails().stream()
+          .mapToDouble(e -> e.getSellingPrice() * e.getQuantity()).sum());
+    }
+    if (transaction.getTotalBasePrice() == null) {
+      transaction.setTotalBasePrice(transaction.getTransactionDetails().stream()
+          .mapToDouble(e -> e.getBasePrice() * e.getQuantity()).sum());
+    }
   }
 }

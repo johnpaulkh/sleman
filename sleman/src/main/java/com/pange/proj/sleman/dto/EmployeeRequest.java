@@ -2,15 +2,15 @@ package com.pange.proj.sleman.dto;
 
 import java.io.Serializable;
 
-import net.karneim.pojobuilder.GeneratePojoBuilder;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import net.karneim.pojobuilder.GeneratePojoBuilder;
 
 @GeneratePojoBuilder
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class EmployeeDto implements Serializable {
+public class EmployeeRequest implements Serializable {
 
-  private static final long serialVersionUID = 1L;
+  private static final long serialVersionUID = 3718407424648763780L;
 
   private String id;
   private String name;
@@ -21,34 +21,31 @@ public class EmployeeDto implements Serializable {
     return id;
   }
 
-  public String getName() {
-    return name;
-  }
-
-  public String getPassword() {
-    return password;
-  }
-
-  public String getUsername() {
-    return username;
-  }
-
   public void setId(String id) {
     this.id = id;
+  }
+
+  public String getName() {
+    return name;
   }
 
   public void setName(String name) {
     this.name = name;
   }
 
-  public void setPassword(String password) {
-    this.password = password;
+  public String getUsername() {
+    return username;
   }
 
   public void setUsername(String username) {
     this.username = username;
   }
 
+  public String getPassword() {
+    return password;
+  }
 
-
+  public void setPassword(String password) {
+    this.password = password;
+  }
 }

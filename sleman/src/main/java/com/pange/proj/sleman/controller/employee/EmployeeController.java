@@ -5,19 +5,21 @@ import io.swagger.annotations.ApiOperation;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-import com.pange.proj.sleman.dto.EmployeeDto;
+import com.pange.proj.sleman.dto.EmployeeResponse;
+import com.pange.proj.sleman.dto.EmployeeRequest;
+import com.pange.proj.sleman.dto.base.SingleDto;
 import com.pange.proj.sleman.exception.ApplicationException;
 import com.pange.proj.sleman.model.Employee;
 import com.pange.proj.sleman.service.EmployeeService;
 
-@Controller
+@RestController
 @RequestMapping(value = EmployeeControllerPath.BASE_PATH)
 @Api(value = "Employee API")
 public class EmployeeController {
@@ -29,29 +31,35 @@ public class EmployeeController {
 
   @GetMapping(value = EmployeeControllerPath.FIND_BY_USERNAME_PASS)
   @ApiOperation(value = "find by username and password")
-  public EmployeeDto findByUsernameAndPassword(@RequestParam String username,
-      @RequestParam String password) {
-    return modelMapper.map(employeeService.findByUsernameAndPassword(username, password),
-        EmployeeDto.class);
+  public SingleDto<EmployeeResponse> findByUsernameAndPassword(@RequestParam String username,
+      @RequestParam String password) throws ApplicationException {
+    return new SingleDto<>(getEmployeeDtoFromEntity(employeeService.findByUsernameAndPassword(
+        username, password)));
   }
 
   @GetMapping(value = EmployeeControllerPath.FIND_BY_USERNAME)
   @ApiOperation(value = "find by username")
-  public EmployeeDto findByUsername(@RequestParam String username) {
-    return modelMapper.map(employeeService.findByUsername(username), EmployeeDto.class);
+  public SingleDto<EmployeeResponse> findByUsername(@RequestParam String username)
+      throws ApplicationException {
+    return new SingleDto<>(getEmployeeDtoFromEntity(employeeService.findByUsername(username)));
   }
 
   @PostMapping(value = EmployeeControllerPath.CREATE)
   @ApiOperation(value = "create employee")
-  public EmployeeDto create(@RequestBody EmployeeDto employee) {
-    return modelMapper.map(employeeService.create(modelMapper.map(employee, Employee.class)),
-        EmployeeDto.class);
+  public SingleDto<EmployeeResponse> create(@RequestBody EmployeeRequest employee) {
+    return new SingleDto<>(getEmployeeDtoFromEntity(employeeService.create(modelMapper.map(
+        employee, Employee.class))));
   }
 
   @PostMapping(value = EmployeeControllerPath.UPDATE)
   @ApiOperation(value = "update employee")
-  public EmployeeDto update(@RequestBody EmployeeDto employee) throws ApplicationException {
-    return modelMapper.map(employeeService.update(modelMapper.map(employee, Employee.class)),
-        EmployeeDto.class);
+  public SingleDto<EmployeeResponse> update(@RequestBody EmployeeRequest employee)
+      throws ApplicationException {
+    return new SingleDto<>(getEmployeeDtoFromEntity(employeeService.update(modelMapper.map(
+        employee, Employee.class))));
+  }
+
+  private EmployeeResponse getEmployeeDtoFromEntity(Employee employee) {
+    return modelMapper.map(employee, EmployeeResponse.class);
   }
 }

@@ -11,6 +11,6 @@ import com.pange.proj.sleman.model.Transaction;
 @Repository
 public interface TransactionRepository extends JpaRepository<Transaction, String> {
 
-  List<Transaction> findByTransactionTimeGreaterThanEqualsAndTransactionTimeLessThanEquals(Date dateStart, Date dateEnd);
+  List<Transaction> findByTransactionTimeBetween(Date dateStart, Date dateEnd);
   
 }

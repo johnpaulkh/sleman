@@ -1,0 +1,1030 @@
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Initializing servlet 'dispatcherServlet'
+[INFO] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/sleman]
+        Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        FrameworkServlet 'dispatcherServlet': initialization started
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'multipartResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@71852f76]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@657165e5]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@7dceb3af]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'beanNameHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'resourceHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'faviconHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'welcomePageHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'endpointHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'errorAttributes'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'handlerExceptionResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@a92b1b4]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'beanNameViewResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'mvcViewResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'defaultViewResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'viewResolver'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@82b4f61]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+[INFO] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Servlet 'dispatcherServlet' configured successfully
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.w.f.OrderedRequestContextFilter
+        Bound request context to thread: org.apache.catalina.connector.RequestFacade@5fe4d3fb
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'springSecurityFilterChain'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/css/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/css/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/js/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/js/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/images/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/images/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/webjars/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/webjars/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/**/favicon.ico']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/**/favicon.ico'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/error']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/error'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        No matches found
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'serverProperties'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'endpointHandlerMapping'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/beans']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/beans'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/beans/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/beans/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/beans.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/beans.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/beans/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/beans/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/autoconfig']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/autoconfig'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/autoconfig/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/autoconfig/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/autoconfig.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/autoconfig.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/autoconfig/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/autoconfig/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/metrics']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/metrics'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/metrics/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/metrics/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/metrics.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/metrics.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/metrics/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/metrics/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/mappings']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/mappings'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/mappings/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/mappings/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/mappings.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/mappings.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/mappings/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/mappings/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/trace']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/trace'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/trace/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/trace/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/trace.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/trace.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/trace/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/trace/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/health']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/health'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/health/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/health/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/dump']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/dump'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/dump/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/dump/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/dump.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/dump.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/dump/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/dump/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/env']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/env'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/env/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/env/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/env.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/env.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/env/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/env/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/info']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/info'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/info/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/info/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/configprops']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/configprops'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/configprops/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/configprops/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/configprops.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/configprops.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/configprops/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/configprops/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/heapdump']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/heapdump'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/heapdump/**']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/heapdump/**'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/heapdump.*']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/heapdump.*'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/heapdump/']
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/heapdump/'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.u.m.OrRequestMatcher
+        No matches found
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.s.w.FilterChainProxy
+        /docs/swagger-ui.html has no matching filters
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        DispatcherServlet with name 'dispatcherServlet' processing GET request for [/sleman/docs/swagger-ui.html]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.a.e.m.EndpointHandlerMapping
+        Looking up handler method for path /docs/swagger-ui.html
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.a.e.m.EndpointHandlerMapping
+        Did not find handler method for [/docs/swagger-ui.html]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+        Looking up handler method for path /docs/swagger-ui.html
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+        Did not find handler method for [/docs/swagger-ui.html]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.h.SimpleUrlHandlerMapping
+        Matching patterns for request [/docs/swagger-ui.html] are [/docs/**, /**]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.h.SimpleUrlHandlerMapping
+        URI Template variables for request [/docs/swagger-ui.html] are {}
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.h.SimpleUrlHandlerMapping
+        Mapping [/docs/swagger-ui.html] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@56adb75e]]] and 1 interceptor
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Last-Modified value for [/sleman/docs/swagger-ui.html] is: -1
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Successfully completed request
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'delegatingApplicationListener'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.w.f.OrderedRequestContextFilter
+        Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5fe4d3fb
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        DispatcherServlet with name 'dispatcherServlet' processing GET request for [/sleman/error]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.a.e.m.EndpointHandlerMapping
+        Looking up handler method for path /error
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.a.e.m.EndpointHandlerMapping
+        Did not find handler method for [/error]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+        Looking up handler method for path /error
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+        Returning handler method [public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'basicErrorController'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Last-Modified value for [/sleman/error] is: -1
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.o.j.s.OpenEntityManagerInViewInterceptor
+        Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver
+        Requested media types are [text/html, text/html;q=0.8] based on Accept header types and producible media types [text/html])
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'error'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.v.BeanNameViewResolver
+        No matching bean found for view name 'error.html'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Invoking afterPropertiesSet() on bean with name 'error'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Invoking afterPropertiesSet() on bean with name 'error.html'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver
+        Returning [org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$SpelView@19439ec4] based on requested media type 'text/html'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Rendering view [org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$SpelView@19439ec4] in DispatcherServlet with name 'dispatcherServlet'
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.o.j.s.OpenEntityManagerInViewInterceptor
+        Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.o.j.EntityManagerFactoryUtils
+        Closing JPA EntityManager
+[DEBUG] 2017-08-11 10:16:34 [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet
+        Successfully completed request
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.b.w.f.OrderedRequestContextFilter
+        Bound request context to thread: org.apache.catalina.connector.RequestFacade@5fe4d3fb
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/css/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/css/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/js/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/js/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/images/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/images/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/webjars/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/webjars/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/**/favicon.ico']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/**/favicon.ico'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/error']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/error'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        No matches found
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/beans']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/beans'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/beans/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/beans/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/beans.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/beans.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/beans/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/beans/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/autoconfig']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/autoconfig'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/autoconfig/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/autoconfig/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/autoconfig.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/autoconfig.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/autoconfig/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/autoconfig/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/metrics']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/metrics'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/metrics/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/metrics/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/metrics.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/metrics.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/metrics/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/metrics/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/mappings']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/mappings'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/mappings/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/mappings/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/mappings.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/mappings.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/mappings/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/mappings/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/trace']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/trace'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/trace/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/trace/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/trace.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/trace.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/trace/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/trace/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/health']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/health'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/health/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/health/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/dump']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/dump'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/dump/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/dump/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/dump.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/dump.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/dump/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/dump/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/env']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/env'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/env/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/env/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/env.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/env.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/env/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/env/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/info']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/info'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/info/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/info/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/configprops']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/configprops'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/configprops/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/configprops/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/configprops.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/configprops.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/configprops/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/configprops/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/heapdump']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/heapdump'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/heapdump/**']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/heapdump/**'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/heapdump.*']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/heapdump.*'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        Trying to match using Ant [pattern='/heapdump/']
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.AntPathRequestMatcher
+        Checking match of request : '/docs/swagger-ui.html'; against '/heapdump/'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.u.m.OrRequestMatcher
+        No matches found
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.s.w.FilterChainProxy
+        /docs/swagger-ui.html has no matching filters
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet
+        DispatcherServlet with name 'dispatcherServlet' processing GET request for [/sleman/docs/swagger-ui.html]
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.b.a.e.m.EndpointHandlerMapping
+        Looking up handler method for path /docs/swagger-ui.html
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.b.a.e.m.EndpointHandlerMapping
+        Did not find handler method for [/docs/swagger-ui.html]
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+        Looking up handler method for path /docs/swagger-ui.html
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+        Did not find handler method for [/docs/swagger-ui.html]
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.h.SimpleUrlHandlerMapping
+        Matching patterns for request [/docs/swagger-ui.html] are [/docs/**, /**]
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.h.SimpleUrlHandlerMapping
+        URI Template variables for request [/docs/swagger-ui.html] are {}
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.h.SimpleUrlHandlerMapping
+        Mapping [/docs/swagger-ui.html] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@56adb75e]]] and 1 interceptor
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet
+        Last-Modified value for [/sleman/docs/swagger-ui.html] is: -1
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet
+        Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet
+        Successfully completed request
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.b.w.f.OrderedRequestContextFilter
+        Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5fe4d3fb
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet
+        DispatcherServlet with name 'dispatcherServlet' processing GET request for [/sleman/error]
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.b.a.e.m.EndpointHandlerMapping
+        Looking up handler method for path /error
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.b.a.e.m.EndpointHandlerMapping
+        Did not find handler method for [/error]
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+        Looking up handler method for path /error
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.m.m.a.RequestMappingHandlerMapping
+        Returning handler method [public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'basicErrorController'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet
+        Last-Modified value for [/sleman/error] is: -1
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.o.j.s.OpenEntityManagerInViewInterceptor
+        Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver
+        Requested media types are [text/html, text/html;q=0.8] based on Accept header types and producible media types [text/html])
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.b.f.s.DefaultListableBeanFactory
+        Returning cached instance of singleton bean 'error'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.v.BeanNameViewResolver
+        No matching bean found for view name 'error.html'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver
+        Returning [org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$SpelView@19439ec4] based on requested media type 'text/html'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet
+        Rendering view [org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$SpelView@19439ec4] in DispatcherServlet with name 'dispatcherServlet'
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.o.j.s.OpenEntityManagerInViewInterceptor
+        Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.o.j.EntityManagerFactoryUtils
+        Closing JPA EntityManager
+[DEBUG] 2017-08-11 10:17:06 [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet
+        Successfully completed request
+[INFO] 2017-08-11 10:18:47 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 11456 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 10:18:47 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 10:18:47 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 10:18:58 [main] c.p.p.s.Main
+        Started Main in 11.598 seconds (JVM running for 12.29)
+[INFO] 2017-08-11 10:19:30 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 1568 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 10:19:30 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 10:19:30 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 10:19:41 [main] c.p.p.s.Main
+        Started Main in 11.475 seconds (JVM running for 12.239)
+[INFO] 2017-08-11 10:27:51 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 12164 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 10:27:51 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 10:27:51 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 10:28:02 [main] c.p.p.s.Main
+        Started Main in 11.492 seconds (JVM running for 12.198)
+[INFO] 2017-08-11 10:46:09 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 6356 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 10:46:09 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 10:46:09 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[ERROR] 2017-08-11 10:46:22 [main] o.a.c.h.Http11NioProtocol
+        Failed to start end point associated with ProtocolHandler [http-nio-8080]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.pange.proj.sleman.Main.main(Main.java:10)
+[ERROR] 2017-08-11 10:46:22 [main] o.a.c.c.StandardService
+        Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:233)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:178)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:371)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1186)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1175)
+	at com.pange.proj.sleman.Main.main(Main.java:10)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:976)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:874)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:590)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:969)
+	... 14 common frames omitted
+[ERROR] 2017-08-11 10:46:22 [main] o.s.b.d.LoggingFailureAnalysisReporter
+        
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+[INFO] 2017-08-11 10:46:39 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 9560 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 10:46:39 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 10:46:39 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 10:46:51 [main] c.p.p.s.Main
+        Started Main in 12.177 seconds (JVM running for 12.908)
+[ERROR] 2017-08-11 10:47:33 [http-nio-8080-exec-3] c.p.p.s.c.SlemanControllerAdvice
+        source cannot be null
+java.lang.IllegalArgumentException: source cannot be null
+	at org.modelmapper.internal.util.Assert.notNull(Assert.java:53)
+	at org.modelmapper.ModelMapper.map(ModelMapper.java:370)
+	at com.pange.proj.sleman.controller.product.ProductController.findById(ProductController.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2017-08-11 10:54:01 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 5708 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 10:54:01 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 10:54:01 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 10:54:12 [main] c.p.p.s.Main
+        Started Main in 11.641 seconds (JVM running for 12.476)
+[ERROR] 2017-08-11 10:54:40 [http-nio-8080-exec-1] c.p.p.s.c.SlemanControllerAdvice
+        source cannot be null
+java.lang.IllegalArgumentException: source cannot be null
+	at org.modelmapper.internal.util.Assert.notNull(Assert.java:53)
+	at org.modelmapper.ModelMapper.map(ModelMapper.java:370)
+	at com.pange.proj.sleman.controller.product.ProductController.findById(ProductController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[ERROR] 2017-08-11 10:57:29 [http-nio-8080-exec-2] c.p.p.s.c.SlemanControllerAdvice
+        source cannot be null
+java.lang.IllegalArgumentException: source cannot be null
+	at org.modelmapper.internal.util.Assert.notNull(Assert.java:53)
+	at org.modelmapper.ModelMapper.map(ModelMapper.java:370)
+	at com.pange.proj.sleman.controller.product.ProductController.findById(ProductController.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:107)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:620)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] 2017-08-11 11:01:17 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 10860 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 11:01:17 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 11:01:17 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 11:01:28 [main] c.p.p.s.Main
+        Started Main in 11.508 seconds (JVM running for 12.276)
+[INFO] 2017-08-11 11:04:34 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 10436 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 11:04:34 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 11:04:34 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 11:04:50 [main] c.p.p.s.Main
+        Started Main in 17.377 seconds (JVM running for 18.174)
+[INFO] 2017-08-11 11:12:27 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 11368 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 11:12:27 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 11:12:27 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 11:12:38 [main] c.p.p.s.Main
+        Started Main in 11.105 seconds (JVM running for 11.872)
+[INFO] 2017-08-11 11:24:44 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 11248 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 11:24:44 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 11:24:44 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 11:24:56 [main] c.p.p.s.Main
+        Started Main in 13.107 seconds (JVM running for 13.876)
+[INFO] 2017-08-11 11:29:11 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 10464 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 11:29:11 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 11:29:11 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 11:29:23 [main] c.p.p.s.Main
+        Started Main in 12.194 seconds (JVM running for 12.916)
+[INFO] 2017-08-11 11:31:35 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 9540 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 11:31:35 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 11:31:35 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 11:31:47 [main] c.p.p.s.Main
+        Started Main in 12.197 seconds (JVM running for 12.879)
+[INFO] 2017-08-11 11:35:43 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 12968 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 11:35:43 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 11:35:43 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 11:35:54 [main] c.p.p.s.Main
+        Started Main in 11.237 seconds (JVM running for 11.986)
+[INFO] 2017-08-11 11:40:19 [main] c.p.p.s.Main
+        Starting Main on DEV-LTP-050 with PID 4220 (D:\private\PersonalProj\sleman\sleman\sleman\target\classes started by yohanes.p.k.hadinata in D:\private\PersonalProj\sleman\sleman\sleman)
+[DEBUG] 2017-08-11 11:40:19 [main] c.p.p.s.Main
+        Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+[INFO] 2017-08-11 11:40:19 [main] c.p.p.s.Main
+        The following profiles are active: dev
+[INFO] 2017-08-11 11:40:28 [main] c.p.p.s.Main
+        Started Main in 9.515 seconds (JVM running for 10.056)

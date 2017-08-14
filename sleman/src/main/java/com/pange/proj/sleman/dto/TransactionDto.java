@@ -4,10 +4,9 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.pange.proj.sleman.model.Employee;
-
 import net.karneim.pojobuilder.GeneratePojoBuilder;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @GeneratePojoBuilder
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -19,7 +18,7 @@ public class TransactionDto implements Serializable {
   private Date transactionTime;
   private Double totalSellingPrice;
   private Double totalBasePrice;
-  private Employee employee;
+  private EmployeeResponse employee;
   private List<TransactionDetailDto> transactionDetails;
 
   public String getId() {
@@ -54,11 +53,11 @@ public class TransactionDto implements Serializable {
     this.totalBasePrice = totalBasePrice;
   }
 
-  public Employee getEmployee() {
+  public EmployeeResponse getEmployee() {
     return employee;
   }
 
-  public void setEmployee(Employee employee) {
+  public void setEmployee(EmployeeResponse employee) {
     this.employee = employee;
   }
 

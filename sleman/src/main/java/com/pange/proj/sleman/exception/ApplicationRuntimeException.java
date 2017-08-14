@@ -1,35 +1,35 @@
 package com.pange.proj.sleman.exception;
 
-public class ApplicationException extends Exception implements BaseApplicationException {
+public class ApplicationRuntimeException extends RuntimeException implements BaseApplicationException {
 
-  private static final long serialVersionUID = 6966467065061141116L;
-
+  private static final long serialVersionUID = -2091846723468237000L;
+  
   private final String errorMessage;
   private final ExceptionType type;
   private final Throwable rootCause;
 
-  public ApplicationException(String message, Throwable cause) {
+  public ApplicationRuntimeException(String message, Throwable cause) {
     super(cause.getMessage(), cause);
     this.errorMessage = message;
     this.type = ExceptionType.UNSPECIFIED;
     this.rootCause = cause;
   }
 
-  public ApplicationException(String message) {
+  public ApplicationRuntimeException(String message) {
     super(message);
     this.errorMessage = message;
     this.type = ExceptionType.UNSPECIFIED;
     this.rootCause = null;
   }
 
-  public ApplicationException(String message, ExceptionType type) {
+  public ApplicationRuntimeException(String message, ExceptionType type) {
     super(message);
     this.errorMessage = message;
     this.type = type;
     this.rootCause = null;
   }
 
-  public ApplicationException(String message, ExceptionType type, Throwable cause) {
+  public ApplicationRuntimeException(String message, ExceptionType type, Throwable cause) {
     super(cause.getMessage(), cause);
     this.errorMessage = message;
     this.type = type;
@@ -50,4 +50,5 @@ public class ApplicationException extends Exception implements BaseApplicationEx
   public Throwable getRootCause() {
     return rootCause;
   }
+  
 }
